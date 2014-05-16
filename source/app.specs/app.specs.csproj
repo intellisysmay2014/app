@@ -116,6 +116,7 @@
     <Compile Include="AspNetRequestHandlerSpecs.cs" />
     <Compile Include="HandlerLookupSpecs.cs" />
     <Compile Include="LabelGeneratorSpec.cs" />
+    <Compile Include="ReadProductDataSpec.cs" />
     <Compile Include="RequestHandlerSpecs.cs" />
     <Compile Include="SingleRequestHandlerSpecs.cs" />
     <Compile Include="utility\ObectFactory.cs" />
