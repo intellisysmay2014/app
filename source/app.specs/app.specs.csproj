@@ -114,9 +114,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AspNetRequestHandlerSpecs.cs" />
+    <Compile Include="DatabaseConnectionSpecs.cs" />
     <Compile Include="HandlerLookupSpecs.cs" />
     <Compile Include="LabelGeneratorSpec.cs" />
-    <Compile Include="ReadProductDataSpec.cs" />
+    <Compile Include="QueryGatewaySpec.cs" />
     <Compile Include="RequestHandlerSpecs.cs" />
     <Compile Include="SingleRequestHandlerSpecs.cs" />
     <Compile Include="utility\ObectFactory.cs" />

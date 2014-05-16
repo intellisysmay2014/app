@@ -58,6 +58,7 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -77,7 +78,15 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="data\core\DatabaseConnection.cs" />
+    <Compile Include="data\core\IConfigureACommand.cs" />
+    <Compile Include="data\core\ICreateConnections.cs" />
+    <Compile Include="data\core\ICreateRawQueriesFromCommands.cs" />
+    <Compile Include="data\core\IEncapsulateAQuery.cs" />
+    <Compile Include="data\core\IPerformMapping.cs" />
+    <Compile Include="data\core\IRunRawQueries.cs" />
     <Compile Include="utility\LabelGenerator.cs" />
+    <Compile Include="web\application\store_browsing\GetMainCategoriesQuery.cs" />
     <Compile Include="web\application\store_browsing\IGetCategories.cs" />
     <Compile Include="web\application\store_browsing\CategoryLineItem.cs" />
     <Compile Include="web\application\store_browsing\IGetItems.cs" />
@@ -85,7 +94,7 @@
     <Compile Include="web\application\store_browsing\IGetSubCategories.cs" />
     <Compile Include="web\application\store_browsing\IQueryForData.cs" />
     <Compile Include="web\application\store_browsing\ProductLineItem.cs" />
-    <Compile Include="web\application\store_browsing\ReadProductData.cs" />
+    <Compile Include="web\application\store_browsing\QueryGateway.cs" />
     <Compile Include="web\application\store_browsing\stubs\StubReportData.cs" />
     <Compile Include="web\application\store_browsing\SubCategoryListingInput.cs" />
     <Compile Include="web\application\store_browsing\ViewCategoryProducts.cs" />
